@@ -90,7 +90,7 @@ void PeopleSoft()
 	driver.get("C:\\Users\\arun.yadav\\Desktop\\abc.html");
 	List<WebElement> totalTextBoxes=driver.findElements(By.xpath("//input[@type='text']"));
 	String[] str={"A","B","C","D","E","F","G","H","I","J"};
-	
+	/// New line
     for (int i=0;i<totalTextBoxes.size();i++)
     {
     	//String str1=(String)str.charAt(i);
